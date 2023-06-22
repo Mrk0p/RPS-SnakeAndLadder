@@ -3,7 +3,10 @@ package com.bridgelabz.snake_and_ladder;
 import java.util.Random;
 
 public class SnakeAndLadder {
+
+
     public static void main(String[] args) {
+
         int position = 0;
         int player = 0;
         int count = 0;
@@ -41,6 +44,7 @@ public class SnakeAndLadder {
             System.out.println("Position of the player: " + player);
         }
         System.out.println("Player roll dice "+count+" times to win.");
+
 
     }
 }
